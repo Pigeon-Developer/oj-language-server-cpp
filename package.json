@@ -1,0 +1,24 @@
+{
+  "name": "oj-language-server-cpp",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6"
+  },
+  "dependencies": {
+    "express": "^4.20",
+    "vscode-languageserver": "~9.0.1",
+    "vscode-ws-jsonrpc": "^3.1.0",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.9.0+sha256.7a4261e50d9a44d9240baf6c9d6e10089dcf0a79d0007f2a26985a6927324177",
+  "license": "MIT"
+}
